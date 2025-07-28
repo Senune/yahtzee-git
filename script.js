@@ -57,7 +57,7 @@ function rollDice() {
         countCells[i - 1].innerText = counts[i] * i;
     }
 
-    countCells[6].innerText = ofAKind(counts, 3) ? "Yes" : "No";
+    countCells[6].innerText = ofAKind(counts, 3) ? "Ysadasdasdasdes" : "No";
     countCells[7].innerText = ofAKind(counts, 4) ? "Yes" : "No";
     countCells[8].innerText = straight(counts, 4) ? "Yes" : "No";
     countCells[9].innerText = straight(counts, 5) ? "Yes" : "No";
